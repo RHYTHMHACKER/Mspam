@@ -73,7 +73,7 @@ Git installation methods are not universal and are likely to differ between dist
 
 >Running `Mspam.sh` as sudo miscofigures files ownership. It is recommended not to run it as sudo
 
-Run these commands to clone and run TBomb.
+Run these commands to clone and run Mspam.
 
 #### For Termux
 
@@ -98,8 +98,8 @@ gem install toilet
 git clone https://github.com/RHYTHMHACKER/Mspam.git
 cd TBomb
 pip3 install -r requirements.txt
-chmod +x TBomb.sh
-./TBomb.sh
+chmod +x Mspam.sh
+./Mspam.sh
 ```
 
 #### For Debian-based GNU/Linux distributions
@@ -108,8 +108,8 @@ To use the application, type in the following commands in GNU/Linux terminal.
 ```shell script
 sudo apt install git
 git clone https://github.com/RHYTHMHACKER/Mspam.git
-cd TBomb
-bash TBomb.sh
+cd Mspam
+bash Mspam.sh
 ```
 
 #### For MacOS
@@ -130,8 +130,8 @@ brew install python3
 sudo easy_install pip
 sudo pip install --upgrade pip
 git clone https://github.com/RHYTHMHACKER/Mspam.git
-cd TBomb
-bash TBomb.sh
+cd Mspam
+bash Mspam.sh
 ```
 
 
