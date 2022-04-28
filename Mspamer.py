@@ -54,6 +54,12 @@ def bann_text():
     clr()
     logo = """
 
+╔═╦╦══╗─────╔══╦══╦═╦═╦═╦═╦══╦═╦╦══╗
+║║║║══╬═╦╦╦═╣╔═╣╔╗║║║║║╦╣╬║══╬╗║╠╗╔╝
+║║║╠══║╬║╔╣╬║╚╗║╠╣║║║║║╩╣╗╬══╠╩╗║║║
+╚╩═╩══╣╔╩╝╚═╩══╩╝╚╩╩═╩╩═╩╩╩══╩══╝╚╝
+──────╚╝
+
 █▀▄▀█ █▀ █▀█ ▄▀█ █▀▄▀█
 █░▀░█ ▄█ █▀▀ █▀█ █░▀░█
 BY NSproGAMERSYT
@@ -111,11 +117,11 @@ def do_zip_update():
         except Exception:
             mesgdcrt.FailureMessage("Error occured while extracting !!")
     if success:
-        mesgdcrt.SuccessMessage("TBomb was updated to the latest version")
+        mesgdcrt.SuccessMessage("Mspam was updated to the latest version")
         mesgdcrt.GeneralMessage(
             "Please run the script again to load the latest version")
     else:
-        mesgdcrt.FailureMessage("Unable to update TBomb.")
+        mesgdcrt.FailureMessage("Unable to update Mspam .")
         mesgdcrt.WarningMessage(
             "Grab The Latest one From https://github.com/RHYTHMHACKER/Mspam")
 
@@ -142,7 +148,7 @@ def do_git_update():
     print("\n")
 
     if success:
-        mesgdcrt.SuccessMessage("TBomb was updated to the latest version")
+        mesgdcrt.SuccessMessage("Mspam was updated to the latest version")
         mesgdcrt.GeneralMessage(
             "Please run the script again to load the latest version")
     else:
@@ -360,7 +366,7 @@ def selectnode(mode="sms"):
 
 mesgdcrt = MessageDecorator("icon")
 if sys.version_info[0] != 3:
-    mesgdcrt.FailureMessage("TBomb will work only in Python v3")
+    mesgdcrt.FailureMessage("Mspam will work only in Python v3")
     sys.exit()
 
 try:
