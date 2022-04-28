@@ -41,7 +41,7 @@ banner() {
     echo -e "\e[1;32m           Telegram: https://t.me/RHYTHMHACKER\e[0m"
     echo -e "\e[4;32m   YouTube: https://www.youtube.com/c/NSproGAMERSYT1 \e[0m"
     echo " "
-    echo "NOTE: Kindly move to the PIP version Of TBomb for more stability."
+    echo "NOTE: Kindly move to the PIP version Of Mspam for more stability."
     echo " "
 }
 
