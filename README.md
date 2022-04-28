@@ -2,7 +2,7 @@
   <br>
   <a href="https://github.com/RHYTHMHACKER/Mspam"><img src="./NSproYT/NSproYT.png" alt="TBomb"></a>
   <br>
-  TBomb v2.1b
+  Mspam v2.1
   <br>
 </h1>
 
@@ -54,10 +54,10 @@ Before continuing make sure following requirements are satisfied:
 - Python version greater than or equal to 3.4 is installed
 - pip is installed for Python 3
 
-Install `tbomb` package by running:
+Install `mspam` package by running:
 
 ```shell script
-pip3 install tbomb
+pip3 install mspam
 ```
 
 Run TBomb by just typing:
@@ -71,7 +71,7 @@ tbomb
 
 Git installation methods are not universal and are likely to differ between distributions so installing Git as per the given instructions below may not work. Please check out how to install Git for your Linux distribution [here](https://git-scm.com/). Commands below provide instructions for Debian-based systems.
 
->Running `TBomb.sh` as sudo miscofigures files ownership. It is recommended not to run it as sudo
+>Running `Mspam.sh` as sudo miscofigures files ownership. It is recommended not to run it as sudo
 
 Run these commands to clone and run TBomb.
 
@@ -81,9 +81,9 @@ To use the bomber type the following commands in Termux:
 ```shell script
 pkg install git -y 
 pkg install python -y 
-git clone https://github.com/TheSpeedX/TBomb.git
-cd TBomb
-./TBomb.sh
+git clone https://github.com/RHYTHMHACKER/Mspam
+cd Mspam
+./Mspam.sh
 ```
 
 #### For iSH
@@ -95,7 +95,7 @@ apk add python3
 apk add py3-pip
 apk add ruby
 gem install toilet
-git clone https://github.com/TheSpeedX/TBomb.git
+git clone https://github.com/RHYTHMHACKER/Mspam.git
 cd TBomb
 pip3 install -r requirements.txt
 chmod +x TBomb.sh
@@ -107,7 +107,7 @@ chmod +x TBomb.sh
 To use the application, type in the following commands in GNU/Linux terminal.
 ```shell script
 sudo apt install git
-git clone https://github.com/TheSpeedX/TBomb.git
+git clone https://github.com/RHYTHMHACKER/Mspam.git
 cd TBomb
 bash TBomb.sh
 ```
@@ -129,7 +129,7 @@ brew install git
 brew install python3
 sudo easy_install pip
 sudo pip install --upgrade pip
-git clone https://github.com/TheSpeedX/TBomb.git
+git clone https://github.com/RHYTHMHACKER/Mspam.git
 cd TBomb
 bash TBomb.sh
 ```
@@ -144,19 +144,6 @@ The package `toilet` cannot be installed yet on macOS. But TBomb does still work
 - Watch Indian Bombing Method [here](https://youtu.be/9KWkwsr_QGw)  
 - Watch International Bombing Method [here](https://youtu.be/JqsHkyIcnPM).  
 
-## Contributors
-
-- Catch **[t0xic0der](https://github.com/t0xic0der)** at https://atlasdoc.netlify.app
-- Check **[Avinash](https://github.com/AvinashReddy3108)** at https://github.com/AvinashReddy3108
-- Mail **[scpketer](https://github.com/scpketer)** at scpketer@protonmail.ch
-- Mail **[0n1cOn3](https://github.com/0n1cOn3)** at 0n1cOn3@gmx.ch
-- Ping **Rieltar** at https://t.me/RieltarReborn
-
-
-### Donators:
-
-- **[34D30Y](34db0y@protonmail.com)**
-- **SC AMAN**
 
 ### TODO:
 
@@ -196,8 +183,8 @@ The package `toilet` cannot be installed yet on macOS. But TBomb does still work
 
 **A:** First, make sure `python3` and `pip3` are installed. 
 - The Easy Method:  
-   `pip3 install tbomb`  
-    Then execute by simply running `tbomb`
+   `pip3 install mspam`  
+    Then execute by simply running `mspam`
 - The Git Method:  
     Clone the repo and Switch to the TBomb Directory and execute this command:  
     `pip3 install -r requirements.txt`
@@ -208,11 +195,11 @@ The package `toilet` cannot be installed yet on macOS. But TBomb does still work
 ##
 **Q:** Help, I can't execute TBomb.sh!
 
-**A:** Run TBomb Directly with `python3 bomber.py`
+**A:** Run Mspam Directly with `python3 bomber.py`
 ##
 **Q:** Should I use VPN? 
 
-**A:** No, If you are facing high fail rate as TBomb can fail due the high response time or API restrictions.
+**A:** No, If you are facing high fail rate as Mspam can fail due the high response time or API restrictions.
 ##
 **Q:** How to get protection ?
 
@@ -224,8 +211,8 @@ The package `toilet` cannot be installed yet on macOS. But TBomb does still work
 ##
 ### Support
 
-For Queries: [Telegram Group](https://t.me/TBombChat)  
-Contributions, issues, and feature requests are welcome!  
+For Movies: [Telegram Group](https://t.me/RHYTHMHACKER)  
+For all types of movies are welcome!  
 Give a ★ if you like this project!
 
-<p align="right"> Last FAQ Update: 08.08.2021 </p>
+<p align="right"> Last FAQ Update: 28.04.2022 </p>
