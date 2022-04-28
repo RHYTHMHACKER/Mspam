@@ -27,19 +27,19 @@ banner() {
     clear
     echo -e "\e[1;31m"
     if ! [ -x "$(command -v figlet)" ]; then
-        echo 'Introducing TBomb'
+        echo 'Introducing Mspam'
     else
-        figlet TBomb
+        figlet NSproYT
     fi
     if ! [ -x "$(command -v toilet)" ]; then
-        echo -e "\e[4;34m This Bomber Was Created By \e[1;32mSpeedX \e[0m"
+        echo -e "\e[4;34m This Spamer Was Created By \e[1;32mNSproYT \e[0m"
     else
         echo -e "\e[1;34mCreated By \e[1;34m"
-        toilet -f mono12 -F border SpeedX
+        toilet -f mono12 -F border Mspam
     fi
     echo -e "\e[1;34m For Any Queries Join Me!!!\e[0m"
-    echo -e "\e[1;32m           Telegram: https://t.me/TBombChat \e[0m"
-    echo -e "\e[4;32m   YouTube: https://www.youtube.com/c/SpeedXTech \e[0m"
+    echo -e "\e[1;32m           Telegram: https://t.me/RHYTHMHACKER\e[0m"
+    echo -e "\e[4;32m   YouTube: https://www.youtube.com/c/NSproGAMERSYT1 \e[0m"
     echo " "
     echo "NOTE: Kindly move to the PIP version Of TBomb for more stability."
     echo " "
@@ -82,7 +82,7 @@ install_deps(){
     else
         echo "We could not install dependencies."
         echo "Please make sure you have git, python3, pip3 and requirements installed."
-        echo "Then you can execute bomber.py ."
+        echo "Then you can execute Mspamer.py ."
         exit
     fi
 }
@@ -98,7 +98,7 @@ else
     echo .
     echo .
     install_deps
-    echo This Script Was Made By SpeedX > .update
+    echo This Script Was Made By NSproYT> .update
     echo 'Requirements Installed....'
     pause
 fi
@@ -115,19 +115,19 @@ do
     read ch
     clear
     if [ $ch -eq 1 ];then
-        $PYTHON bomber.py --sms
+        $PYTHON Mspamer.py --sms
         exit
     elif [ $ch -eq 2 ];then
-        $PYTHON bomber.py --call
+        $PYTHON Mspamer.py --call
         exit
     elif [ $ch -eq 3 ];then
-        $PYTHON bomber.py --mail
+        $PYTHON Mspamer.py --mail
         exit
     elif [ $ch -eq 4 ];then
         echo -e "\e[1;34m Downloading Latest Files..."
         rm -f .update
-        $PYTHON bomber.py --update
-        echo -e "\e[1;34m RUN TBomb Again..."
+        $PYTHON Mspamer.py --update
+        echo -e "\e[1;34m RUN Mspam Again..."
         pause
         exit
     elif [ $ch -eq 5 ];then
