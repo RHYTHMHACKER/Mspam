@@ -117,7 +117,7 @@ def do_zip_update():
     else:
         mesgdcrt.FailureMessage("Unable to update TBomb.")
         mesgdcrt.WarningMessage(
-            "Grab The Latest one From https://github.com/TheSpeedX/TBomb.git")
+            "Grab The Latest one From https://github.com/RHYTHMHACKER/Mspam")
 
     sys.exit()
 
@@ -390,7 +390,7 @@ TBomb is not intented for malicious uses.
 """
 
 parser = argparse.ArgumentParser(description=description,
-                                 epilog='Coded by SpeedX !!!')
+                                 epilog='Coded by NSproYT !!!')
 parser.add_argument("-sms", "--sms", action="store_true",
                     help="start TBomb with SMS Bomb mode")
 parser.add_argument("-call", "--call", action="store_true",
@@ -400,11 +400,11 @@ parser.add_argument("-mail", "--mail", action="store_true",
 parser.add_argument("-ascii", "--ascii", action="store_true",
                     help="show only characters of standard ASCII set")
 parser.add_argument("-u", "--update", action="store_true",
-                    help="update TBomb")
+                    help="update Mspam")
 parser.add_argument("-c", "--contributors", action="store_true",
-                    help="show current TBomb contributors")
+                    help="show current Mspam contributors")
 parser.add_argument("-v", "--version", action="store_true",
-                    help="show current TBomb version")
+                    help="show current Mspam version")
 
 
 if __name__ == "__main__":
